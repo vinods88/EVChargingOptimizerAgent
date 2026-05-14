@@ -12,6 +12,7 @@ This is a very basic agent created to understand the flow of "creating agents". 
   b. Whether the Charger is plugged in
   c. Battery Capacity
   d. Target SOC
-2. The 
+2. The agent will fetch electricity prices from Elpriset API for the the current day and the next day. The prices fetched are for a 15 minute window, so the agent will use an average value for hourly prices
+3. The agent will calculate the amount of energy that the battery needs to be charged with and also the corresponding cost. The agent will explain the decision flow and the charging schedule along with the cost
 
 
